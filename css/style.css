@@ -2043,11 +2043,13 @@ p a {
     display: flex;
     align-items: center;
     gap: 1.3rem;
+    white-space: nowrap;
 }
 
 .trad-percent-people>div a {
     color: var(--blue-color);
     font-size: 16px;
+    white-space: nowrap;
 }
 
 .swiper-main {
@@ -3356,6 +3358,15 @@ button.click-btn:hover {
     .contact_us_form {
         flex-direction: column;
         row-gap: 3rem;
+    }
+
+    .swiper-wrapper .article-discribe p {
+        display: block;
+        height: 100%;
+    }
+
+    .swiper-wrapper .item-content .top-img {
+        height: 7rem;
     }
 }
 
