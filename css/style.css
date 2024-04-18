@@ -2882,6 +2882,7 @@ button.click-btn:hover {
     height: 100svh;
     backdrop-filter: blur(30px);
     /* display: none; */
+    padding-top: 7rem;
 }
 
 .close-register {
