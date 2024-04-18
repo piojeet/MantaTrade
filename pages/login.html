@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo__header">
+                <a href="/">
+                    <img src="../assets/images/logo.png" alt="">
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="../index.html" class="sm-border">Home</a></li>
+                <li><a href="tradingpltafomrs.html" class="sm-border">Trading Platforms</a></li>
+                <li><a href="education.html" class="sm-border">Educational Resources</a></li>
+                <li><a href="about.html" class="sm-border">About Us</a></li>
+                <li><a href="contact.html" class="sm-border">Contact Us</a></li>
+                <li><a href="signup.html" class="al__btns register__btn">Register Now</a></li>
+            </ul>
+
+            <button class="menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+            aria-label="Main Menu">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <path class="line line1"
+                    d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                <path class="line line2" d="M 20,50 H 80" />
+                <path class="line line3"
+                    d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+            </svg>
+        </button>
+        </nav>
+    </header>
+
+
+
+            <!-- REGISTER SECTION START -->
+            <section class="register-main">
+                <div class="container left-imgrg">
+                    <i class="fa-solid fa-xmark close-register"></i>
+                    <!-- <img src="../assets/images/IMG_20240405_171241_792.jpg" alt="Image" class="image"> -->
+                    <div class="form-container">
+                        <div id="signup-form" class="form">
+                            <!-- Sign Up Form -->
+                            <h2>Login</h2>
+                            <form action="#" method="POST">
+                                <input type="email" placeholder="Email" required>
+                                <input type="password" placeholder="Password" required>
+                                <div class="remember">
+                                    <div class="form-flex">
+                                        <input type="checkbox" name="click" id="click">
+                                        <label for="click"><span>Remember me</span></label>
+                                    </div>
+                                    <a href="forgot.html" id="forgot-btn">Forgot Password?</a>
+                                </div>
+                                <button  class="click-btn" type="submit">Login</button>
+                               <div class="dont-have-account"><span>Don't have an account? </span><a href="signup.html">Sign up</a></div>
+                                <div class="register-options">
+                                    <span></span>
+                                    <span>Or</span>
+                                    <span></span>
+                                </div>
+        
+                                <div class="other-options">
+                                    <div class="goole-regs"><img src="../assets/images/google.svg" alt=""></div>
+                                    <div><img src="../assets/images/facebookr.svg" alt=""></div>
+                                    <div><img src="../assets/images/appler.svg" alt=""></div>
+                                </div>
+                            </form>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+            <!-- REGISTER SECTION ENDS -->
+
+
+
+         <!-- FOOTER START -->
+         <footer>
+            <div class="foot__container">
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="tradingpltafomrs.html" class="sm-border">Trading Platforms</a></li>
+                        <li><a href="about.html" class="sm-border">About Us</a></li>
+                        <!-- Add more links as needed -->
+                    </ul>
+                </div>
+    
+                <div class="legal-info">
+                    <h4>Legal Information</h4>
+                    <ul>
+                        <li><a href="#" class="sm-border">Privacy Policy</a></li>
+                        <li><a href="#" class="sm-border">Terms of Use</a></li>
+                    </ul>
+                </div>
+    
+                <div class="contact-info">
+                    <h4>Contact Information</h4>
+                    <p class="foter__email">Email: support@mantatrade.com</p>
+                <p class="footer__number">Phone: +1234567890</p>
+                    <!-- Add more contact information as needed -->
+                </div>
+    
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#"><img src="../assets/images/linkedin.svg" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="../assets/images/facebook.svg" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="../assets/images/instagram.svg" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="../assets/images/twiter.svg" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="../assets/images/youtube.svg" alt="Instagram"></a></li>
+                        <!-- Add more social media icons as needed -->
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER ENDS -->
+
+    <!-- <script src="../js/form.js"></script> -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

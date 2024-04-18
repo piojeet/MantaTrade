@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Include Font Awesome library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>MantaTrade | Your Trading with MantaTrade</title>
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /* background: #fff; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo__header">
+                <a href="/">
+                    <img src="./assets/images/logo.png" alt="IMG">
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="#" class="sm-border">Home</a></li>
+                <li><a href="./pages/tradingpltafomrs.html" class="sm-border">Trading Platforms</a></li>
+                <li><a href="./pages/education.html" class="sm-border">Educational Resources</a></li>
+                <li><a href="./pages/about.html" class="sm-border">About Us</a></li>
+                <li><a href="/pages/contact.html" class="sm-border">Contact Us</a></li>
+                <li><a href="pages/signup.html" class="al__btns register__btn">Register Now</a></li>
+            </ul>
+
+            <button class="menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+            aria-label="Main Menu">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <path class="line line1"
+                    d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                <path class="line line2" d="M 20,50 H 80" />
+                <path class="line line3"
+                    d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+            </svg>
+        </button>
+
+
+
+        </nav>
+    </header>
+
+    <section id="hero__section">
+        <div class="hero__container">
+            <div class="hero__left">
+                <h1>Elevate Your Trading with MantaTrade.</h1>
+                <p>Innovative Platforms. Unparalleled Support. Educational Excellence.</p>
+                <div><a href="./pages/signup.html" class="al__btns center-m">Discover More</a></div>
+            </div>
+
+            <div class="hero__right">
+                <img src="./assets/images/heror.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE SECTION START -->
+    <section id="feature__section">
+        <h2 class="feature__heading">Features</h2>
+        <div class="feat__container">
+            <div class="fea__box">
+                <img src="./assets/images/trad.svg" alt="">
+                <h3>Trading Platforms</h3>
+                <p>Access our cutting-edge trading platforms designed for seamless trading experiences.</p>
+            </div>
+            <div class="fea__box">
+                <img src="./assets/images/education.svg" alt="">
+                <h3>Educational Resources</h3>
+                <p>Explore our vast array of educational resources to enhance your trading skills and knowledge.</p>
+            </div>
+            <div class="fea__box">
+                <img src="./assets/images/license.svg" alt="">
+                <h3>Licensed and Regulated</h3>
+                <p>Trade with confidence knowing we are fully licensed and regulated by reputable authorities.</p>
+            </div>
+            <div class="fea__box">
+                <img src="./assets/images/customer.svg" alt="">
+                <h3>Customer Support</h3>
+                <p>Our dedicated support team is available 24/7 to assist you with any queries or concerns.</p>
+            </div>
+        </div>
+    </section>
+    <!-- FEATURE SECTION ENDS -->
+
+    <!-- ABOUT SECTION START -->
+    <section id="about__section">
+        <h2>About MantaTrader</h2>
+        <div class="abt__container">
+            <div class="about-text">
+                <p>MantaTrader is more than just a trading platform; it's a thriving community built on trust,
+                    transparency, and empowerment. Our mission is to democratize access to financial markets, providing
+                    traders of all levels with the tools, education, and support they need to succeed. We envision a
+                    world where anyone, regardless of background or experience, can confidently navigate the
+                    complexities of trading and achieve their financial goals. Join us on our journey to reshape the
+                    future of finance.</p>
+            </div>
+            <div class="about-image">
+                <img src="./assets/images/about.jpg" alt="img">
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION ENDS -->
+
+    <!-- EDUCATIONAL RESURSE SECTION START -->
+    <section id="edu__section">
+        <h2>Educational Resources Preview</h2>
+        <div class="edu__container">
+            <div class="edu__box">
+                <div>
+                    <img src="./assets/images/webner.svg" alt="Webinar">
+                    <p class="title">Webinar Title</p>
+                    <a href="webinar_details.html" class="cta-button sm-border">Learn More <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="edu__box">
+                <div>
+                    <img src="./assets/images/book.svg" alt="E-book">
+                    <p class="title">E-book Title</p>
+                    <a href="ebook_details.html" class="cta-button sm-border">Learn More <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="edu__box">
+                <div>
+                    <img src="./assets/images/chart.svg" alt="Course">
+                    <p class="title">Course Title</p>
+                    <a href="course_details.html" class="cta-button sm-border">Learn More <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EDUCATIONAL RESURSE SECTION END -->
+
+    <!-- TESTiMONIAL SECTION START -->
+    <section id="testimonials__section">
+        <h2>Testimonials</h2>
+        <div class="testimonials__cont">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="crusal__img">
+                                <img src="./assets/images/IMG_20240405_171241_117.jpg"
+                                    alt="Customer 2">
+                            </div>
+                            <p class="name-own"><strong>John Doe</strong></p>
+                            <p class="discription">"I just had to share my thoughts on your fantastic product! I've been
+                                using it for several months now, and I couldn't be happier with the results. From its
+                                intuitive design to its robust features, every aspect of the product has exceeded my
+                                expectations. It has truly transformed the way I work, making my tasks more efficient
+                                and enjoyable. I'm incredibly impressed with the quality and reliability it offers.
+                                Thank you for creating such an outstanding product!"</p>
+                            <div class="start-rating">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starhafe.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="crusal__img">
+                                <img src="./assets/images/IMG_20240405_171241_117.jpg"
+                                    alt="Customer 2">
+                            </div>
+                            <p class="name-own"><strong>Jane Smith</strong></p>
+                            <p class="discription">"I just wanted to express my gratitude for the amazing service I
+                                received from your team. From the moment I reached out with a query, your support team
+                                was incredibly helpful and responsive. They guided me through every step of the process
+                                with patience and professionalism, ensuring that all my concerns were addressed
+                                promptly. I was truly impressed by their dedication to customer satisfaction. Thank you
+                                for providing such exceptional service!"</p>
+                            <div class="start-rating">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starhafe.svg" alt="">
+                                <img src="./assets/images/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="crusal__img">
+                                <img src="./assets/images/IMG_20240405_171241_117.jpg"
+                                    alt="Customer 2">
+                            </div>
+                            <p class="name-own"><strong>John Doe</strong></p>
+                            <p class="discription">"I just had to share my thoughts on your fantastic product! I've been
+                                using it for several months now, and I couldn't be happier with the results. From its
+                                intuitive design to its robust features, every aspect of the product has exceeded my
+                                expectations. It has truly transformed the way I work, making my tasks more efficient
+                                and enjoyable. I'm incredibly impressed with the quality and reliability it offers.
+                                Thank you for creating such an outstanding product!"</p>
+                            <div class="start-rating">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starhafe.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="crusal__img">
+                                <img src="./assets/images/IMG_20240405_171241_117.jpg"
+                                    alt="Customer 2">
+                            </div>
+
+                            <p class="name-own"><strong>Jane Smith</strong></p>
+                            <p class="discription">"I just wanted to express my gratitude for the amazing service I
+                                received from your team. From the moment I reached out with a query, your support team
+                                was incredibly helpful and responsive. They guided me through every step of the process
+                                with patience and professionalism, ensuring that all my concerns were addressed
+                                promptly. I was truly impressed by their dedication to customer satisfaction. Thank you
+                                for providing such exceptional service!"</p>
+                            <div class="start-rating">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starfill.svg" alt="">
+                                <img src="./assets/images/starhafe.svg" alt="">
+                                <img src="./assets/images/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <img src="./assets/images/rightarrow.svg" alt="Next slide">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="./assets/images/leftarrow.svg" alt="Previous slide">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- TESTiMONIAL SECTION END -->
+
+
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="foot__container">
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./pages/tradingpltafomrs.html" class="sm-border">Trading Platforms</a></li>
+                    <li><a href="./pages/about.html" class="sm-border">About Us</a></li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+
+            <div class="legal-info">
+                <h4>Legal Information</h4>
+                <ul>
+                    <li><a href="#" class="sm-border">Privacy Policy</a></li>
+                    <li><a href="#" class="sm-border">Terms of Use</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-info">
+                <h4>Contact Information</h4>
+                <p class="foter__email">Email: support@mantatrade.com</p>
+                <p class="footer__number">Phone: +1234567890</p>
+                <!-- Add more contact information as needed -->
+            </div>
+
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#"><img src="./assets/images/linkedin.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="./assets/images/facebook.svg" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="./assets/images/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="./assets/images/twiter.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="./assets/images/youtube.svg" alt="Instagram"></a></li>
+                    <!-- Add more social media icons as needed -->
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+
+</html>

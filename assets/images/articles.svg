@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.062" height="20.057" viewBox="0 0 23.062 20.057">
+  <g id="all_icons" data-name="all icons" transform="translate(0.531 0.528)">
+    <g id="video" transform="translate(1 2.5)" opacity="0">
+      <g id="Rectangle_1755" data-name="Rectangle 1755" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1.5">
+        <rect width="20" height="14" rx="1" stroke="none"/>
+        <rect x="0.75" y="0.75" width="18.5" height="12.5" rx="0.25" fill="none"/>
+      </g>
+      <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M3.789,1.764.646.056A.428.428,0,0,0,0,.4V3.81a.43.43,0,0,0,.646.339L3.789,2.442a.378.378,0,0,0,0-.678Z" transform="translate(8 3.767)" fill="#0b253a"/>
+      <line id="Line_60" data-name="Line 60" x2="19.361" transform="translate(0.139 11.117)" fill="none" stroke="#0b253a" stroke-width="2"/>
+      <line id="Line_61" data-name="Line 61" x2="15.899" transform="translate(2.101 12.286)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="0.8"/>
+      <g id="Ellipse_40" data-name="Ellipse 40" transform="translate(3.417 11.3)" fill="#0b253a" stroke="#fff" stroke-width="2">
+        <circle cx="1" cy="1" r="1" stroke="none"/>
+        <circle cx="1" cy="1" fill="none"/>
+      </g>
+    </g>
+    <g id="platform" transform="translate(2 1.5)" opacity="0">
+      <path id="Icon_awesome-layer-group" data-name="Icon awesome-layer-group" d="M.436,6.2,8.625,9.918a.9.9,0,0,0,.748,0L17.563,6.2a.785.785,0,0,0,0-1.407L9.374,1.081a.9.9,0,0,0-.748,0L.436,4.8A.786.786,0,0,0,.436,6.2ZM17.563,8.182l-2.042-.926L9.839,9.832a2.027,2.027,0,0,1-1.678,0L2.479,7.256.436,8.182a.785.785,0,0,0,0,1.406L8.625,13.3a.9.9,0,0,0,.748,0l8.19-3.712a.785.785,0,0,0,0-1.406Zm0,3.368-2.034-.922-5.69,2.579-.831.182H9a2.018,2.018,0,0,1-.839-.182l-5.69-2.579L.436,11.55a.785.785,0,0,0,0,1.406l8.189,3.712a.9.9,0,0,0,.748,0l8.19-3.712a.785.785,0,0,0,0-1.406Z" transform="translate(0 -0.999)" fill="none" stroke="#0b253a" stroke-width="1.5"/>
+    </g>
+    <g id="article" transform="translate(1 2.5)">
+      <g id="Rectangle_1764" data-name="Rectangle 1764" fill="none" stroke="#0b253a" stroke-width="1.5">
+        <rect width="20" height="14" rx="1" stroke="none"/>
+        <rect x="0.75" y="0.75" width="18.5" height="12.5" rx="0.25" fill="none"/>
+      </g>
+      <g id="Rectangle_1765" data-name="Rectangle 1765" transform="translate(3.25 3.375)" fill="none" stroke="#0b253a" stroke-width="1.5">
+        <rect width="7" height="4" rx="1" stroke="none"/>
+        <rect x="0.75" y="0.75" width="5.5" height="2.5" rx="0.25" fill="none"/>
+      </g>
+      <line id="Line_64" data-name="Line 64" x2="6" transform="translate(3.769 9.8)" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Line_65" data-name="Line 65" x2="3.5" transform="translate(12.774 4.083)" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Line_70" data-name="Line 70" x2="3.5" transform="translate(12.774 7)" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="Line_71" data-name="Line 71" x2="3.5" transform="translate(12.774 9.8)" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+    <g id="webina" opacity="0">
+      <path id="Icon_awesome-layer-group-2" data-name="Icon awesome-layer-group" d="M.484,6.77l9.081,4.119a1,1,0,0,0,.83,0L19.475,6.77a.871.871,0,0,0,0-1.561l-9.08-4.12a1,1,0,0,0-.83,0L.484,5.209A.871.871,0,0,0,.484,6.77ZM19.476,8.964,17.211,7.938l-6.3,2.856a2.247,2.247,0,0,1-1.86,0l-6.3-2.856L.484,8.964a.87.87,0,0,0,0,1.559L9.564,14.64a1,1,0,0,0,.83,0l9.081-4.116a.87.87,0,0,0,0-1.559Zm0,3.735L17.22,11.676l-6.31,2.86-.921.2H9.98a2.238,2.238,0,0,1-.93-.2L2.74,11.676.484,12.7a.87.87,0,0,0,0,1.559l9.081,4.116a1,1,0,0,0,.83,0l9.081-4.116a.87.87,0,0,0,0-1.559Z" transform="translate(1 -0.482)" fill="none" stroke="#0b253a" stroke-width="1.5" opacity="0"/>
+      <g id="Component_255_8" data-name="Component 255 – 8" transform="translate(2.979 3)">
+        <g id="Rectangle_1778" data-name="Rectangle 1778" fill="none" stroke="#0b253a" stroke-width="1.3">
+          <rect width="16" height="13" rx="1" stroke="none"/>
+          <rect x="0.65" y="0.65" width="14.7" height="11.7" rx="0.35" fill="none"/>
+        </g>
+        <path id="Icon_awesome-play-2" data-name="Icon awesome-play" d="M4.129,2.091.7.066a.464.464,0,0,0-.7.4V4.516a.467.467,0,0,0,.7.4L4.129,2.894a.467.467,0,0,0,0-.8Z" transform="translate(5.821 4.007)" fill="#0b253a"/>
+      </g>
+      <path id="Path_10615" data-name="Path 10615" d="M0,0C.092,1.441.427,3.79,4,4" transform="translate(0 15)" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_10616" data-name="Path 10616" d="M0,0A1.866,1.866,0,0,0,2,2" transform="translate(2 15)" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_10617" data-name="Path 10617" d="M4,4C3.908,2.559,3.573.21,0,0" transform="translate(18)" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_10618" data-name="Path 10618" d="M2,2A1.866,1.866,0,0,0,0,0" transform="translate(18 2)" fill="none" stroke="#0b253a" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

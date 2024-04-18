@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo__header">
+                <a href="/">
+                    <img src="../assets/images/logo.png" alt="">
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="../index.html" class="sm-border">Home</a></li>
+                <li><a href="tradingpltafomrs.html" class="sm-border">Trading Platforms</a></li>
+                <li><a href="education.html" class="sm-border">Educational Resources</a></li>
+                <li><a href="about.html" class="sm-border">About Us</a></li>
+                <li><a href="contact.html" class="sm-border">Contact Us</a></li>
+                <li><a href="signup.html" class="al__btns register__btn">Register Now</a></li>
+            </ul>
+
+            <button class="menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+            aria-label="Main Menu">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <path class="line line1"
+                    d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                <path class="line line2" d="M 20,50 H 80" />
+                <path class="line line3"
+                    d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+            </svg>
+        </button>
+        </nav>
+    </header>
+
+
+    <!-- CONTACT US SECTION START -->
+    <section>
+        <div  class="container-contact">
+            <h2>Contact Us</h2>
+            <div class="contact_us_form">
+                <div class="left-contact">
+                    <form action="#">
+                        <div class="flex-form">
+                            <img src="../assets/images/email.png" alt="IMG">
+                            <h3>Send us an Email</h3>
+                        </div>
+                        <p>The response time may be longer than usual, due to the high number of new traders. We are
+                            working around the clock to speed up the process. Thank you for your patience.</p>
+                        <div class="form-field">
+                            <select name="reason" required="">
+                                <option selected="" value="">Reason of Request</option>
+                                <option value="account_opening">Account Opening</option>
+                                <option value="customer_support">Customer Support</option>
+                                <option value="affiliate_program">Affiliate program</option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <input name="name" type="text" placeholder="First Name" required="">
+                        </div>
+                        <div class="form-field">
+                            <input name="lastName" type="text" placeholder="Last Name" required="">
+                        </div>
+                        <div class="form-field">
+                            <input name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" type="email" placeholder="Email"
+                                required="">
+                        </div>
+                        <div class="form-field">
+                            <input name="phone" minlength="3" type="number" placeholder="Phone Number" required="">
+                        </div>
+                        <div class="form-field">
+                            <input type="text" name="subject" placeholder="Subject" required="">
+                        </div>
+                        <div class="form-field">
+                            <textarea rows="8" name="comment" placeholder="Request" required=""></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Contact Us</button>
+                        <p class="recaptcha-content"> This site is protected by reCAPTCHA and the Google <a
+                                href="https://policies.google.com/privacy" target="_blank"> Privacy Policy </a> and <a
+                                href="https://policies.google.com/terms" target="_blank"> Terms of Service </a> apply.
+                        </p>
+                    </form>
+
+                    <div>
+                        <div class="flex-form">
+                            <img src="../assets/images/time-2.png" alt="">
+                            <h3>Trading Hours</h3>
+                        </div>
+                        <h4>Opening:</h4>
+                        <p class="close-and-open">Sunday 21:00 GMT<br>
+                            Cryptocurrency trading is 24/7</p>
+                        <h4>Closing:</h4>
+                        <p class="close-and-open">Friday 21:00 GMT<br>
+                            Cryptocurrency trading is 24/7</p>
+                        <div class="flex-form">
+                            <img src="../assets/images/time-2.png" alt="">
+                            <h3>Holiday Trading Hours</h3>
+                        </div>
+                        <p>For this month’s trading hours</p>
+                        <!-- <a class="month-a" href="#">Click here</a> -->
+                        <!-- <div class="phone">
+                            <a class="tel" href="tel:+1 212-941-9609">+1 212-941-9609</a>
+                        </div> -->
+                        <!-- <div class="whatsapp-img flex-form">
+                            <img src="../assets/images/whatsapp-icon.svg" alt="">
+                            <h3>Whatsapp</h3>
+                        </div> -->
+                        <!-- <p><b>Phone:</b> +447520644093</p> -->
+                        <!-- <div class="chat-here">
+                            <a href="#">or Click<strong> here</strong></a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- <div class="right-contact">
+                    <div  class="flex-form">
+                        <img src="../assets/images/phone.png" alt="IMG">
+                        <h3>Phone Numbers World Wide</h3>
+                    </div>
+
+
+
+                    <ul> 
+                        <h4>Europe</h4>
+                        <li> <img src="../assets/images/Untitled-15.png" alt="Austria" width="20" height="20"><span>Austria: </span><a href="tel:+(43) 69010324167">+(43) 69010324167</a> </li> 
+                        <li> <img src="../assets/images/Untitled-18.png" alt="Cyprus" width="20" height="20"><span>Cyprus: </span><a href="tel:+(35)725030235">+(35)725030235</a> </li> 
+                        <li> <img src="../assets/images/Untitled-19.png" alt="Denmark" width="20" height="20"><span>Denmark: </span><a href="tel:+(45)78755456">+(45)78755456</a> </li> 
+                        <li> <img src="../assets/images/Untitled-20.png" alt="Finland" width="20" height="20"><span>Finland:</span> <a href="tel:+(35)8942723482">+(35)8942723482</a> </li> 
+                        <li> <img src="../assets/images/Untitled-21.png" alt="France" width="20" height="20"><span>France: </span><a href="tel:+(33)757921916">+(33)757921916</a> </li> 
+                        <li> <img src="../assets/images/Untitled-38.png" alt="Germany" width="20" height="20"><span>Germany: </span><a href="tel:+(49) 15731229548">+(49) 15731229548</a> </li> 
+                        <li> <img src="../assets/images/Untitled-23.png" alt="Greece" width="20" height="20"><span>Greece: </span><a href="tel:+(30)2111984889">+(30)2111984889</a> </li> 
+                        <li> <img src="../assets/images/Untitled-24.png" alt="Hungary" width="20" height="20"><span>Hungary: </span><a href="tel:+(36)19989828">+(36)19989828</a> </li> 
+                        <li> <img src="../assets/images/Untitled-25.png" alt="Ireland" width="20" height="20"><span>Ireland: </span><a href="tel:+(353)15137861">+(353)15137861</a> </li> 
+                        <li> <img src="../assets/images/Untitled-20-1.png" alt="Italy" width="20" height="20"><span>Italy: </span><a href="tel:+(39)0289038621">+(39)0289038621</a> </li> 
+                        <li> <img src="../assets/images/Untitled-28.png" alt="Netherlands" width="20" height="20"><span>Netherlands:</span><a href="tel:+(31)858887467">+(31)858887467</a> </li> 
+                        <li> <img src="../assets/images/Untitled-29.png" alt="Norway" width="20" height="20"><span>Norway: </span><a href="tel:+(47)21937504">+(47)21937504</a> </li> 
+                        <li> <img src="../assets/images/Untitled-30.png" alt="Poland" width="20" height="20"><span>Poland:</span><a href="tel:+(48)122518098">+(48)122518098</a> </li> 
+                        <li> <img src="../assets/images/Untitled-31.png" alt="Portugal" width="20" height="20"><span>Portugal: </span><a href="tel:+(351) 300051703">+(351) 300051703</a> </li> 
+                        <li> <img src="../assets/images/Untitled-32.png" alt="Romania" width="20" height="20"><span>Romania: </span><a href="tel:+(40)312297018">+(40)312297018</a> </li> 
+                        <li class="show-cid-178" style="display : none;"> <img src="../assets/images/Untitled-33.png" alt="Russia" width="20" height="20"><span>Russia:</span><a href="tel:+(7)4953744885">+(7)4953744885</a> </li> <li> <img src="../assets/images/Untitled-34.png" alt="Slovenia" width="20" height="20"><span>Slovenia: </span><a href="tel:+(38)617778294">+(38)617778294</a> 
+                        </li> <li> <img src="../assets/images/Untitled-35.png" alt="Spain" width="20" height="20"><span>Spain: </span><a href="tel:+(34) 910039542">+(34) 910039542</a> </li> 
+                        <li> <img src="../assets/images/Untitled-36.png" alt="Sweden" width="20" height="20"><span>Sweden: </span><a href="tel:+(46)844687023">+(46)844687023</a> </li> 
+                        <li> <img src="../assets/images/Untitled-52.png" alt="Switzerland" width="20" height="20"><span>Switzerland: </span> <a href="tel: (41)225013040"> (41)225013040</a> 
+                        </li> 
+                        <li> <img src="../assets/images/uk-1.jpg" alt="United Kingdom" width="20" height="20"><span>United Kingdom</span> <a href="tel: +(44)2033074336">+(44)2033074336</a> </li> 
+                    </ul>
+
+                    <ul> 
+                        <h4>Australia and NZ</h4>
+                        <li> <img src="../assets/images/Untitled-39.png" alt="Australia" width="20" height="20"><span>Australia: </span><a href="tel: +(61)272018721">+(61)272018721</a> </li> 
+                    </ul>
+
+                    <ul>
+                        <h4>Africa</h4>
+                         <li> <img src="../assets/images/Untitled-17.png" alt="South Africa" width="20" height="20"><span>South Africa: </span><a href="tel: +(27)319800174">+(27)319800174</a> </li> 
+                         <li> <img src="../assets/images/ng.png" alt="Nigeria" width="20" height="20"><span>Nigeria</span><a href="tel: (+234) 2013440914">(+234) 2013440914</a> </li> 
+                        </ul>
+
+                        <ul> 
+                            <h4>Asia</h4>
+                            <li> <img src="../assets/images/Untitled-37-1.png" alt="China" width="20" height="20"><span>China:</span><a href="tel:+(86)4000737081">+(86)4000737081</a> </li> 
+                            <li> <img src="../assets/images/Untitled-39-1.png" alt="Hong Kong" width="20" height="20"><span>Hong Kong: </span><a href="tel:+(86)4000737081">+(86)4000737081</a> </li> 
+                            <li> <img src="../assets/images/Untitled-42.png" alt="Malaysia" width="20" height="20"><span>Malaysia: </span> <a href="tel: +(60) 378903866"> +(60) 378903866</a> </li> 
+                            <li> <img src="../assets/images/Untitled-53.png" alt="Korea" width="20" height="20"><span>Korea: </span><a href="tel: +(82)7047326715"> +(82)7047326715</a> </li> 
+                            <li> <img src="../assets/images/Untitled-44.png" alt="Singapore" width="20" height="20"><span>Singapore: </span><a href="tel:+(65)66538003">+(65)66538003</a> &gt; </li> 
+                            <li> <img src="../assets/images/Untitled-45.png" alt="Taiwan" width="20" height="20"><span>Taiwan: </span><a href="tel:+(86)4000737081">+(86)4000737081</a> </li> 
+                            <li> <img src="../assets/images/mongolia.png" alt="Mongolia" width="20" height="20"><span>Mongolia</span><a href="tel:+97676090909">+97676090909</a> </li> 
+                        </ul>
+
+                        <ul>
+                            <h4>South America</h4>
+                            <li> <img src="../assets/images/Untitled-46.png" alt="Argentina" width="20" height="20"><span>Argentina: </span><a href="tel:+(54)1152460420">+(54)1152460420</a> </li> 
+                            <li> <img src="../assets/images/Untitled-43-1.png" alt="Brazil" width="20" height="20"><span>Brazil: </span><a href="tel:+(55)6140427290">+(55)6140427290</a> </li> 
+                            <li> <img src="../assets/images/Untitled-48.png" alt="Chile" width="20" height="20"><span>Chile: </span><a href="tel:+(56)232109586">+(56)232109586</a> </li> 
+                            <li> <img src="../assets/images/Untitled-49.png" alt="Colombia" width="20" height="20"><span>Colombia:</span><a href="tel:+(57)6013824819">+(57)6013824819</a> </li> 
+                        </ul>
+
+                        <ul> 
+                            <h4>Middle East</h4>
+                            <li> <img src="../assets/images/UAE_flag_png.png" alt="UAE" width="20" height="20"><span>UAE :</span><a href="tel:97147769316">97147769316</a> </li> 
+                        </ul>
+
+                        <ul> 
+                            <h4>North America</h4>
+                            <li> <img src="../assets/images/mexico.png" alt="Mexico" width="20" height="20"><span>Mexico</span><a href="tel:+(52)5585250780">+(52)5585250780</a> </li> 
+                        </ul>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT US SECTION ENDS -->
+
+
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="foot__container">
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="tradingpltafomrs.html" class="sm-border">Trading Platforms</a></li>
+                    <li><a href="about.html" class="sm-border">About Us</a></li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+
+            <div class="legal-info">
+                <h4>Legal Information</h4>
+                <ul>
+                    <li><a href="#" class="sm-border">Privacy Policy</a></li>
+                    <li><a href="#" class="sm-border">Terms of Use</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-info">
+                <h4>Contact Information</h4>
+                <p class="foter__email">Email: support@mantatrade.com</p>
+            <p class="footer__number">Phone: +1234567890</p>
+                <!-- Add more contact information as needed -->
+            </div>
+
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#"><img src="../assets/images/linkedin.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="../assets/images/facebook.svg" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="../assets/images/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="../assets/images/twiter.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="../assets/images/youtube.svg" alt="Instagram"></a></li>
+                    <!-- Add more social media icons as needed -->
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <script src="../js/main.js"></script>
+    <script src="../js/form.js"></script>
+</body>
+
+</html>
