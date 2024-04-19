@@ -1147,7 +1147,7 @@ footer .foot__container .social-media ul li a {
     width: 85%;
     height: 100%;
     position: absolute;
-    bottom: -250px;
+    bottom: -216px;
     left: 50%;
     transform: translateX(-50%);
     pointer-events: none;
