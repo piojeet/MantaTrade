@@ -3413,7 +3413,7 @@ button.click-btn:hover {
     }
 
     .web-trader {
-        min-height: 85vh;
+        min-height: 100vh;
     }
 
     .Confidence>div {
@@ -3623,7 +3623,7 @@ button.click-btn:hover {
     }
 
     .web-trader .web__lap-top {
-        bottom: -397px;
+        bottom: -80%;
     }
 }
 
