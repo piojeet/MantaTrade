@@ -3586,6 +3586,25 @@ button.click-btn:hover {
     header nav ul {
         width: 70%;
     }
+
+    .mt-trader .web__lap-top {
+        bottom: -500px;
+    }
+
+    .mt-trader {
+        min-height: 105dvb;
+        height: auto;
+    }
+
+    #trading__platform-container .trading__cont .right__trad .platf__list>div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #trading__platform-container .trading__cont .right__trad .platf__list img {
+        width: 5rem;
+    }
 }
 
 
@@ -3601,6 +3620,10 @@ button.click-btn:hover {
         place-items: center;
         text-align: center;
         
+    }
+
+    .web-trader .web__lap-top {
+        bottom: -397px;
     }
 }
 
